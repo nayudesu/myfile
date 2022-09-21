@@ -4,3 +4,24 @@
   /* リセットCSS */
   box-sizing: border-box;
 }
+
+/* ヘッダー */
+header {
+  display: flex;
+  /*　水平方向に指定  */
+  justify-content: space-between;
+  align-items: center;
+  width: 960px;
+  height: 270px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.head-title {
+  font-size: 2rem;
+}
+
+.menu {
+  list-style: none;
+  margin-left: 30px;
+}
