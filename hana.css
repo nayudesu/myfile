@@ -22,7 +22,7 @@ header {
   font-size: 2rem;
 }
 
-ul {
+header ul {
   display: flex;
 }
 
@@ -53,6 +53,22 @@ main img {
 
 
 /* About */
+.about {
+  width: 70%;
+  padding: 0 4%;
+  margin: 0 auto;
+}
+
 .about li {
   list-style: none;
 }
+
+/* １行目の後ろのみ余白 */
+.about li:first-child {
+  margin-bottom: 30px;
+}
+
+.about ul {
+  margin-bottom: 30px;
+}
+
