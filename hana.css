@@ -53,3 +53,6 @@ main img {
 
 
 /* About */
+.about li {
+  list-style: none;
+}
