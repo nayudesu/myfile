@@ -72,3 +72,15 @@ main img {
   margin-bottom: 30px;
 }
 
+
+/* Flower */
+.flower {
+  width: 70%;
+  margin: 0 auto 130px;
+}
+
+.grid {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
