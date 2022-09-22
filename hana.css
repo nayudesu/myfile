@@ -84,3 +84,8 @@ main img {
   gap: 26px;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+.item img {
+  width: auto;
+  height: 300px;
+}
