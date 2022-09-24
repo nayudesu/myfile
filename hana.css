@@ -98,20 +98,20 @@ main img {
   margin: auto;
 }
 
-dl {
+.news dl {
   display: flex;
   flex-wrap: wrap;
   border-top: solid 1px #c8c8c8;
   margin-bottom: 130px;
 }
 
-dt {
+.news dt {
   width: 20%;
   border-bottom: solid 1px #c8c8c8;
   padding: 15px;
 }
 
-dd {
+.news dd {
   width: 80%;
   border-bottom: solid 1px #c8c8c8;
   padding: 15px;
@@ -119,7 +119,22 @@ dd {
 
 
 /* Contact */
+.contact {
+  width: 70%;
+  margin: auto;
+}
 
+.contact dl {
+  margin-bottom: 100px;
+}
+
+.contact dt {
+  width: 20%;
+}
+
+.contact dd {
+  width: 80%;
+}
 
 /* Footer */
 footer {
