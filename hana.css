@@ -121,11 +121,14 @@ main img {
 /* Contact */
 .contact {
   width: 70%;
+  height: 70%;
   margin: auto;
 }
 
 .contact dl {
   margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .contact dt {
@@ -134,6 +137,17 @@ main img {
 
 .contact dd {
   width: 80%;
+  margin-bottom: 10px;
+}
+
+.contact dd input {
+  width: 100%;
+  border: solid 1px #c8c8c8;
+}
+
+textarea {
+  width: 100%;
+  border: solid 1px #c8c8c8;
 }
 
 /* Footer */
