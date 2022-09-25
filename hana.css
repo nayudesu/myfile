@@ -180,8 +180,19 @@ footer {
     height: auto;
   }
 
-  /* About */
+  /* 画面横幅 */
   .about, .flower, .contact {
     width: 90%;
+  }
+
+  /* Flower */
+  .grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .item img {
+    width: 100%;
+    height: auto;
   }
 }
