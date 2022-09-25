@@ -87,7 +87,7 @@ main img {
 }
 
 .item img {
-  width: auto;
+  width: 100%;
   height: 300px;
 }
 
@@ -155,4 +155,10 @@ footer {
   text-align: center;
   background-color: black;
   color: #fff;
+}
+
+
+/* レスポンシブ対応 */
+@media (max-width: 600px){
+  
 }
