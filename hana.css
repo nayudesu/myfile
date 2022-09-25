@@ -173,6 +173,7 @@ footer {
   }
   header ul {
     margin-bottom: 20px;
+    justify-content: space-around;
   }
 
   /* イメージ画像 */
@@ -181,7 +182,7 @@ footer {
   }
 
   /* 画面横幅 */
-  .about, .flower, .contact {
+  .about, .flower, .news, .contact {
     width: 90%;
   }
 
