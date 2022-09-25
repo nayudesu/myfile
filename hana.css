@@ -159,6 +159,17 @@ footer {
 
 
 /* レスポンシブ対応 */
-@media (max-width: 600px){
-  
+@media (max-width: 600px) {
+  header {
+    display: block;
+  }
+  .head-title {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* About */
+  .about {
+    width: 90%;
+  }
 }
