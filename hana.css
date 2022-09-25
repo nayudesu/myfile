@@ -160,16 +160,28 @@ footer {
 
 /* レスポンシブ対応 */
 @media (max-width: 600px) {
+  
+  /* ヘッダー */
   header {
     display: block;
+    width: 100%;
+    height: auto;
   }
   .head-title {
-    flex-direction: column;
-    align-items: center;
+    margin-top: 10px;
+    text-align: center;
+  }
+  header ul {
+    margin-bottom: 20px;
+  }
+
+  /* イメージ画像 */
+  .mainphoto img {
+    height: auto;
   }
 
   /* About */
-  .about {
+  .about, .flower, .contact {
     width: 90%;
   }
 }
