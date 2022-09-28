@@ -14,5 +14,16 @@ class Hello {
       if(s1.equals(s2)) {
         System.out.println("s1とs2の値は等しい");
       }
+
+      // 値の大小を比較
+      // compareTo =比較
+      int i = s1.compareTo(s2);
+      if(i == 0) {
+        System.out.println("値は等しい");
+      } else if(i < 0) {
+        System.out.println("s1はs2より小さい");
+      } else if(i < 0) {
+        System.out.println("s1はs2より大きい");
+      }
      }
 }
